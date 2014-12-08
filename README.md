@@ -2,6 +2,9 @@
 
 A Rack endpoint for handling Shopify webhooks, and fires an ActiveSupport notification for each succesful request.
 
+[![Build Status](https://travis-ci.org/inspire9/shopify_webhook.svg)](https://travis-ci.org/inspire9/shopify_webhook)
+[![Code Climate](https://codeclimate.com/github/inspire9/shopify_webhook/badges/gpa.svg)](https://codeclimate.com/github/inspire9/shopify_webhook)
+
 ## Installation
 
 Add this line to your application's Gemfile:
