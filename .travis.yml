@@ -1,0 +1,10 @@
+language: ruby
+script: bundle exec rspec
+cache: bundler
+rvm:
+  - 2.1.5
+notifications:
+  slack:
+    secure: "QTQhRBwh5UaTz3wzDNCN3qM+9F4NGAXSvDibhyrcMAmpmptDTwQG2FYSss+LppQeCSwFtrDLatb1plmHBemjOpulgeSzuyaqle1evehqpCDa+ogJQG73DSqZCS4vcGeyaKWRvHT5XBKCKJMh5IRnnLYplZk73xVYiGn9MokuW4g="
+  on_success: change
+  on_failure: change
