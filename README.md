@@ -15,7 +15,7 @@ gem 'shopify_webhook', '0.0.1'
 Mount an instance of `ShopifyWebhook::Endpoint` to your preferred route. In a Rails app, that'd look something like this:
 
 ```ruby
-post '/shopify/webhook', to: ShopifyWebhook::Endpoint.new
+post '/shopify/webhook', to: ShopifyWebhook::Endpoint.new(SHARED_SECRET)
 ```
 
 Then, handle the notifications using something like the following (which would probably go in an initialiser for a Rails app):

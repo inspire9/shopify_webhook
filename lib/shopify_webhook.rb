@@ -9,3 +9,4 @@ module ShopifyWebhook
 end
 
 require 'shopify_webhook/endpoint'
+require 'shopify_webhook/verifier'
