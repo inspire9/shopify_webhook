@@ -7,7 +7,7 @@ A Rack endpoint for handling Shopify webhooks, and fires an ActiveSupport notifi
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'shopify_webhook', '0.0.1'
+gem 'shopify_webhook', '0.1.0'
 ```
 
 ## Usage
